@@ -1,6 +1,6 @@
 (ns tonedeaf.core)
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(definst beep [note 60] 
+  (let [src (sin-osc (midicps note)) 
+  env (env-perc 0.01 1.0 :action :free)] 
+  (* src env)))
