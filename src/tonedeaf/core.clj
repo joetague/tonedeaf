@@ -1,5 +1,4 @@
 (ns tonedeaf.core)
-(use 'overtone.live)
 
 (definst sin-wave [freq 440 attack 0.01 sustain 0.4 release 0.1 vol 0.4] 
   (* (env-gen (lin attack sustain release) 1 1 0 1 FREE)
