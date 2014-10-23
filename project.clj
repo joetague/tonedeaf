@@ -1,4 +1,3 @@
-;; Is this how you comment
 (defproject tonedeaf "0.1.0-SNAPSHOT"
   :description "Project for messing about with Supercollider and Overtone: definitely not going to be good music!"
   :url "https://github.com/joetague/tonedeaf"
