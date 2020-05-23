@@ -1,0 +1,12 @@
+{
+  ;; Paths
+  ;;   Directories in the current project to include in the classpath
+
+  :paths ["src"]
+
+  ;; External dependencies
+   :deps {
+     org.clojure/clojure {:mvn/version "1.10.0"}
+          overtone/overtone {:mvn/version "0.10.6"}
+    }
+}
